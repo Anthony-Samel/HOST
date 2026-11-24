@@ -1,0 +1,38 @@
+:root {
+  /* Core Palette Tokens - edit here to restyle the entire Host platform */
+  --host-navy: #0b132b;
+  --host-navy-elevated: #14213d;
+  --host-navy-border: #24365c;
+  --host-coral: #ff5a36;
+  --host-coral-hover: #e44724;
+  --host-coral-soft: rgba(255, 90, 54, 0.14);
+  --host-bone: #f8f5ef;
+  --host-bone-muted: #e6e0d4;
+  --host-ink-light: #f8f5ef;
+  --host-ink-light-muted: #b8c4d9;
+  --host-ink-dark: #0b132b;
+  --host-ink-dark-muted: #475569;
+  --host-success: #15803d;
+  --host-danger: #b91c1c;
+}
+
+@theme inline {
+  --color-host-navy: var(--host-navy);
+  --color-host-navy-elevated: var(--host-navy-elevated);
+  --color-host-navy-border: var(--host-navy-border);
+  --color-host-coral: var(--host-coral);
+  --color-host-coral-hover: var(--host-coral-hover);
+  --color-host-coral-soft: var(--host-coral-soft);
+  --color-host-bone: var(--host-bone);
+  --color-host-bone-muted: var(--host-bone-muted);
+  --color-host-ink-light: var(--host-ink-light);
+  --color-host-ink-light-muted: var(--host-ink-light-muted);
+  --color-host-ink-dark: var(--host-ink-dark);
+  --color-host-ink-dark-muted: var(--host-ink-dark-muted);
+}
+
+html,
+body {
+  background-color: var(--host-bone);
+  color: var(--host-ink-dark);
+}
